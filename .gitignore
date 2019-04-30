@@ -1,0 +1,36 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+bin
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
+/RemoteSystemsTempFiles
+/.metadata
+/.recommenders
+/University1LibraryServer/.settings
+/University1LibraryServer/.classpath
+/University2LibraryServer/.settings
+/University2LibraryServer/.classpath
+/LibraryUI/.settings
+/LibraryUI/.classpath

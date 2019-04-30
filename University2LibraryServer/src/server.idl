@@ -1,0 +1,16 @@
+module com {
+	module librarySystem {
+		module corba{
+			
+			
+			interface Library{
+			
+			 boolean addItem(in string managerID, in string itemID, in string itemName, in long quantity);
+			
+			 string findItem(in string userID, in string itemName);
+
+			  oneway void shutdown();
+			};
+		};
+	};
+};
